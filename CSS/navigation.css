@@ -1,0 +1,28 @@
+ul
+{
+    color: yellow;
+    background-color: black;
+    list-style-type: none;
+    
+
+}
+ul li
+{
+    color: white;
+    background-color: blueviolet;
+    display: inline-block;
+    width: 100px;
+}
+ul li:hover
+{
+    color:red;
+    background-color: rgb(9, 226, 63);
+    /* cursor:wait; */
+    cursor: pointer;
+    /* cursor: crosshair; */
+    /* cursor: progress; */
+    transition: 2s;
+    transform: rotate(180deg);
+    padding-left: 20px;
+
+}

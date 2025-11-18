@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        *
+        /* universal selector */
+        {
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(192, 227, 255);
+        }
+        /* id selector */
+        #a
+        {
+            color: blue;
+            background-color: lightgrey;
+            text-align: center;
+            font-size: xx-large;
+            border: 5px solid black;
+            width: 300px;
+            height: 200px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto;
+
+        }
+        #b
+        {
+            color: red;
+            border: 5px solid black;
+            width: 150px;
+            height: 100px;
+            margin-left: 100px;
+            margin-top: 100px;
+            margin-bottom: 10px;
+            margin-right: 100px;
+        }
+        /* class selector */
+        .c
+        {
+            color: hotpink;
+            background-color: lightblue;
+            width: 300px;
+            height: 200px;
+            border: 3px solid black;
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif; 
+            padding: 50px;      /* internal*/
+            margin-left: 50px;  /*external*/
+        }
+        .d
+        {
+            color: blue;
+            background-color: antiquewhite;
+            font-size: xx-large;
+            width: 300px;
+            height: 200px;
+            margin-top: 50px;
+            margin-left: 50px;
+            border-left: solid 4px black;
+            padding-left: 50px;
+            padding-right: 60px;
+            padding-top: 80px;
+            padding-bottom: 30px;
+            
+        }
+        h3,h4,p
+        /* combinational selector */
+        {
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="a"> hai </div> <br>
+    <marquee behavior="alternate" direction="right"><div id="b"> <img src="image link" alt="no photo"></div></marquee>
+    <div class="c">K25NZ</div>
+    <div class="d">AIML</div>
+    <h3>hai</h3>
+    <h4>bye</h4>
+    <p>good morning</p>
+    
+    <!-- 5 types of selectors : <br>
+    1. element selectors <br>
+    2. id selector <br>
+    3. class selector <br>
+    4. universal selector <br>
+    5. combinational selector -->
+</body>
+</html>

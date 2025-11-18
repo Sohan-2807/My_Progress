@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tag Showcase</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML Tag Showcase</h1>
+        <nav>
+            <a href="#text" style="text-decoration:none;">Text</a>
+            <a href="#media">Media</a>
+            <a href="#layout">Layout</a>
+            <a href="#form">Form</a>
+            <a href="#table">Table</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2>Text Formatting</h2>
+            <p>This is a <strong>strong</strong> and <em>emphasized</em> sentence with <mark>highlighted</mark> text.
+            </p>
+            <p>Here's some <code>inline code</code> and a <br> line break.</p>
+            <blockquote>“HTML is the skeleton of the web.”</blockquote>
+            <p>Subscript: H<sub>2</sub>O &nbsp; Superscript: E = mc<sup>2</sup></p>
+        </section>
+
+        <section id="media">
+            <h2>Media & Links</h2>
+            <p><a href="https://developer.mozilla.org/">Visit MDN Web Docs</a></p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <audio controls>
+                <source src="sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section id="layout">
+            <h2>Layout & Semantic Tags</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an article inside a section. It uses semantic tags for clarity.</p>
+            </article>
+            <aside>
+                <p>This is an aside—like a sidebar or extra info.</p>
+            </aside>
+        </section>
+
+        <section id="form">
+            <h2>Form Elements</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="color">Choose a color:</label>
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                </select><br><br>
+
+                <label><input type="checkbox" name="subscribe"> Subscribe</label><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="table">
+            <h2>Table Example</h2>
+            <table border="1px" cellspacing="6" cellpadding="6">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; &reg; 2025 Sohan's HTML Lab</p>
+        <address>Contact: <a href="mailto:sohan@example.com">sohan@example.com</a></address>
+    </footer>
+
+</body>
+
+</html>

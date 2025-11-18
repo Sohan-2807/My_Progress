@@ -1,0 +1,49 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+} */
+
+/* space around will vanish by using margin 0px;*/
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+#a
+{
+    color: red;
+    background-color: blue;
+    height: 80px;
+    
+}
+.b
+{
+    color: black;
+    position: relative;
+    /* top: 2px; */
+    /* left: 2px; */
+    /* right: 2px; */
+    /* bottom: 10px; */
+    position: sticky;
+    top: 10px;
+    background-color: magenta;
+    height: 80px;
+}
+.c
+{
+    color: brown;
+    background-color: aqua;
+    /* position: absolute;
+    top: 10px;
+    left: 80px; */
+    
+    height: 80px;
+}
+.d
+{
+    color: rgb(21, 21, 20);
+    background-color: greenyellow;
+    height: 80px;
+}

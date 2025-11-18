@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <style>
+        #a{
+            height: 100px;
+            width: 100px;
+            background-color: lightgray;
+            
+            
+        }
+        #b{
+            height: 100px;
+            width: 100px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- onclick,ondblclick,oncontextmenu(right click),onmousemove(keeping mouse on it)
+     onmouseout(Not keeping mouse in it),onmousedown/up(scrolling by mouse) -->
+    <span id="a" onclick="fun()">
+        <img src="/CSS/lpu_image.jpg" style="width: 100px; height: 100px;">
+    </span>
+    <div id="b" ondblclick="fun()"><h2>Double click </h2></div>
+    
+    <script>
+        function fun()
+        {
+            alert("alert after clicking")
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+h1 {
+    color: brown;
+    background-color: rgb(146, 223, 231);
+    text-align: center;
+    /* float: left; */
+    display: inline;
+    width: 100%;            /*ignores width and height due to display inline*/
+    height: 100px;
+}
+
+#a {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: 1px dashed white;
+    width: 55%;
+    /* float : right; */
+    
+}
+
+.b {
+    color: white;
+    background-color: pink;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+marquee {
+    color: darkgreen;
+    background-color: rgb(249, 252, 236);
+}
+
+.c {
+    color: blue;
+    background-color: lightgray;
+    /* height: 100px; */
+    border: 30px solid rgb(94, 162, 201);
+}
+
+.d {
+    color: white;
+    background-color: rgb(200, 125, 125);
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: purple;
+    background-color: lightgreen;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    width: 55%;         /*width and height work due to display block*/
+    height: 30px;
+}
+
+strong {
+    color: rgb(10, 196, 243);
+    background-color: rgb(191, 224, 125);
+    /* display: none; element will no
+t be displayed */
+    display: block;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operators</title>
+    <script>
+        // arithmetic operators
+        let a = 10;
+        let b = 3;
+        document.write("a + b =", a + b); // addition
+        document.write(" a - b =", a - b); // subtraction
+        document.write(" a * b =", a * b); // multiplication
+        document.write(" a / b =", a / b); // division
+        document.write(" a % b =", a % b); // modulus
+        document.write(" a ** b =", a ** b); // exponentiation
+        document.write(" ++a =", ++a); // pre-increment
+        document.write(" b-- =", b--); // post-decrement
+
+        // assignment operators
+        let c = 5;
+        c += 2; // c = c + 2
+        document.write(" c after += 2:", c);
+        c *= 3; // c = c * 3
+        document.write(" c after *= 3:", c);
+
+        // comparison operators
+        document.write(" 10 == '10':", 10 == '10'); // loosely equivalent
+        document.write(" 10 === '10':", 10 === '10'); // strictly equivalent
+        document.write(" 10 != '5':", 10 != '5');
+        document.write(" 10 !== '10':", 10 !== '10');
+        document.write(" 10 > 5:", 10 > 5);
+        document.write(" 10 < 5:", 10 < 5);
+        document.write(" 10 >= 10:", 10 >= 10);
+        document.write(" 5 <= 3:", 5 <= 3);
+
+        // logical operators
+        document.write(" (true && false):", true && false);
+        document.write(" (true || false):", true || false);
+        document.write(" !true:", !true);
+
+        // conditional (ternary) operator
+        let age = 18;
+        let canVote = (age >= 18) ? "Yes" : "No";
+        document.write(" Can vote:", canVote);
+
+        // bitwise operators
+        let x = 5; // binary: 0101
+        let y = 3; // binary: 0011
+        document.write(" x & y =", x & y); // AND
+        document.write(" x | y =", x | y); // OR
+        document.write(" x ^ y =", x ^ y); // XOR
+        document.write(" ~x =", ~x); // NOT
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

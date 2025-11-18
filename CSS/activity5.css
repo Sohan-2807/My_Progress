@@ -1,0 +1,41 @@
+ul
+{
+    background-color: rgb(9, 9, 74);
+    color: white;
+    text-align: center;
+    
+}
+ul li
+{
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    
+    
+}
+ul li:hover
+ {
+    background-color: rgb(186, 147, 17);
+    color: black
+    
+    
+}
+h1
+{
+    color: black;
+    background-color: rgb(25, 148, 54);
+}
+p
+{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body
+{
+    /* background-image: url(lpu_image.jpg); */
+    background-repeat:no-repeat; 
+    background-size:auto;
+}
