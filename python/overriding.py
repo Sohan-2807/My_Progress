@@ -6,6 +6,5 @@ class child(Parent):
         print("Hello from Child")
 p = Parent()
 c = child()
-
 p.greet()
 c.greet()
