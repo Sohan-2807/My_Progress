@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complete CSS Syllabus Review</title>
+    
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif; /* Font Family */
+            line-height: 1.6;                 /* Line Height */
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        /* --- SELECTORS: ID SELECTOR (#) --- */
+        /* --- WORKING WITH BACKGROUND IMAGES --- */
+        #main-header {
+            /* Using a gradient to simulate an image, works the same as url('img.jpg') */
+            background-image: linear-gradient(to right, #4facfe, #00f2fe); 
+            color: white;
+            padding: 20px;
+            text-align: center; /* Text Alignment */
+            border-bottom: 5px solid #005f73;
+        }
+
+        /* --- TEXT CONTROLLING --- */
+        h1 {
+            text-transform: uppercase; /* Makes text all caps */
+            letter-spacing: 2px;       /* Space between letters */
+            margin: 0;
+        }
+
+        /* --- SELECTORS: CLASS SELECTOR (.) --- */
+        /* --- CSS BOX MODEL (Margin, Border, Padding, Content) --- */
+        .content-box {
+            background-color: white;
+            width: 80%;
+            
+            /* MARGIN: Space outside the box (centers it) */
+            margin: 20px auto; 
+            
+            /* PADDING: Space inside the box (pushes text away from border) */
+            padding: 20px;     
+            
+            /* BORDER: The line around the box */
+            border: 2px solid #ccc; 
+            border-radius: 10px;
+        }
+
+        /* --- DIV vs SPAN --- */
+        /* Div is Block (new line), Span is Inline (same line) */
+        .highlight-span {
+            background-color: yellow;
+            font-weight: bold;     /* Font Weight */
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        /* --- APPLYING CSS ON TABLES --- */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Removes double borders */
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        /* --- HOVERABLE TABLES (Selector: pseudo-class) --- */
+        tr:hover {
+            background-color: #f1f1f1; /* Change color when mouse is over row */
+            cursor: pointer;
+        }
+
+        /* --- APPLYING CSS ON FORMS --- */
+        form {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 27px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block; /* Makes label take its own line */
+            margin-top: 10px;
+        }
+
+        /* Targeting specific input types */
+        input[type="text"], input[type="email"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Ensures padding doesn't break layout */
+        }
+
+        /* --- FORM FOCUS STATE --- */
+        input:focus {
+            background-color: #dfe5eb;
+            border-color: #ddc3c3;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px; /* Font Size */
+            border-radius: 30px;
+            transition: background-color 0.5s ;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #367e3a;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="main-header">
+        <h1>Final Exam Preparation</h1>
+        <p>Covers Selectors, Box Model, Tables, and Forms</p>
+    </div>
+
+    <div class="content-box">
+        
+        <h2>1. Div vs Span & Inline CSS</h2>
+        <div style="border: 1px dashed red; padding: 10px; margin-bottom: 10px;">
+            This is a <strong>&lt;div&gt;</strong>. It is a block-level element so it takes up the full width.
+            I have styled this specific box using <span style="color: red; font-weight: bold;">Inline CSS</span>.
+        </div>
+
+        <p>
+            This is a paragraph. Inside this paragraph, I am using a 
+            <span class="highlight-span">&lt;span&gt; tag</span>. 
+            Notice how the span flows with the text and does not break to a new line?
+        </p>
+
+        <hr>
+
+        <h2>2. Student Grades (Hoverable Table)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>John Doe</td>
+                    <td>Web Tech</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Jane Smith</td>
+                    <td>Database</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Sam Wilson</td>
+                    <td>Python</td>
+                    <td>A-</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>3. Registration Form (Styled Controls)</h2>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="css">CSS Fundamentals</option>
+                <option value="html">HTML Structure</option>
+                <option value="js">JavaScript</option>
+            </select>
+            
+            <input type="submit" value="Register Now">
+        </form>
+
+    </div>
+
+</body>
+</html>
