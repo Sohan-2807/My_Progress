@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Basics Demo</title>
+
+    <!-- JavaScript in HEAD -->
+    <script>
+        // variables: var, let, const + operators
+        function runDemo() {
+            // Variables
+            var a = 10;      // old way
+            let b = 20;      // block-scoped
+            const c = 5;     // constant
+
+            console.log("a = " + a);
+            console.log("b = " + b);
+            console.log("c = " + c);
+
+            // Operators
+            console.log("a + b = " + (a + b));
+            console.log("b - c = " + (b - c));
+            console.log("a * c = " + (a * c));
+            console.log("b / a = " + (b / a));
+            console.log("b % c = " + (b % c));
+
+            // if...else
+            if (a < b) {
+                console.log("a is less than b");
+            } else {
+                console.log("a is not less than b");
+            }
+
+            // switch
+
+            let grade = "A";
+            switch (grade) {
+                case "A":
+                    console.log("Grade A: Excellent");
+                    break;
+                case "B":
+                    console.log("Grade B: Good");
+                    break;
+                default:
+                    console.log("Other grade");
+            }
+
+            // for loop with break and continue
+            for (let i = 1; i <= 5; i++) {
+                if (i === 2) {
+                    console.log("Skipping 2 using continue");
+                    continue;
+                }
+                if (i === 5) {
+                    console.log("Breaking loop at 5 using break");
+                    break;
+                }
+                console.log("for loop i = " + i);
+            }
+
+            // while loop
+            let x = 1;
+            while (x <= 3) {
+                console.log("while loop x = " + x);
+                x++;
+            }
+
+            // do...while loop
+            let y = 1;
+            do {
+                console.log("do...while loop y = " + y);
+                y++;
+            } while (y <= 3);
+
+            // Object, properties, methods
+            let student = {
+                name: "Sohan",
+                age: 19,
+                course: "B.Tech AIML",
+                greet: function () {
+                    console.log("Hello, I am " + this.name);
+                }
+            };
+
+            console.log("Student name: " + student.name);
+            console.log("Student age: " + student.age);
+            console.log("Student course: " + student.course);
+            student.greet();
+
+            // Popup boxes: alert, confirm, prompt
+            alert("This is an alert box!");
+
+            let answer = confirm("Do you want to enter your name?");
+            if (answer) {
+                let userName = prompt("Enter your name:");
+                if (userName) {
+                    alert("Hello, " + userName + "!");
+                } else {
+                    alert("You did not type a name.");
+                }
+            } else {
+                alert("You clicked Cancel.");
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>JavaScript Basics Demo</h1>
+
+    <!-- JavaScript in BODY -->
+    <script>
+        console.log("This message is from a script inside the BODY element.");
+    </script>
+
+    <p>Open the browser console to see the outputs (Right click → Inspect → Console).</p>
+
+    <button onclick="runDemo()">Click to Run Demo</button>
+
+</body>
+
+</html>
