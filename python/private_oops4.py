@@ -16,3 +16,4 @@ obj = Child()
 obj.show()
 obj.access_parent_private()
 
+
