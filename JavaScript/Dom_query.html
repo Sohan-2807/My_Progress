@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Topics(QUERY)</title>
+</head>
+
+<body>
+    <h2 class="aaa">qwerty!</h2>
+    <h2 class="aaa">qwerty~</h2>
+    <h2 class="aaa">qwerty. </h2>
+    <h2 id="aaa">qwerty*</h2>
+    <!-- <h2 class="1">hi</h2>
+    <h2 class="2">hii</h2> -->
+    <script>
+        document.querySelector(".aaa").innerHTML = "Changed using querySelector!";        //query selector selects the first matching element not index
+        document.querySelectorAll(".aaa")[2].innerHTML = "Changed using querySelectorAll!";     // querySelectorAll returns a NodeList, so we can access elements by index
+        document.querySelector("#aaa").style.background = "grey";      // selecting by ID and changing style
+        document.querySelector("#aaa").innerHTML = "Changed ID using querySelector!"; // changing content by ID
+    </script>
+</body>
+</body>
+
+</html>

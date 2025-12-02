@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Validation</title>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form onsubmit="return validateForm()">
+        Name: <br><input type="text" placeholder="name" id="a"> <br><br>
+        Mobile number: <br><input type="number" placeholder="number" id="b"> <br><br>
+        Password <br><input type="password" placeholder="password" id="c"> <br><br>
+        Confirm Password <br><input type="password" placeholder="confirm password" id="d"> <br><br>
+
+        <input type="submit" value="SUBMIT">
+    </form>
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById("a").value;
+            var number = document.getElementById("b").value;
+            var password = document.getElementById("c").value;
+            var confirm_password = document.getElementById("d").value;
+
+            if (name === "") {
+                alert("Name is empty");
+                return false;
+            }
+            if (number.length !== 10) {
+                alert("Mobile number must be 10 digits");
+                return false;
+            }
+            if (password !== confirm_password) {
+                alert("Passwords do not match");
+                return false;
+            }
+
+            alert("Form submitted successfully");
+            return true; // allow submission
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <!-- Document Object Model -->
+
+</head>
+
+<body>
+    <!-- <div id="a">DOM</div> -->
+    <p class="b">Hello</p>
+    <p class="b">World</p>
+    <script>
+        document.getElementsByClassName("b")[0].innerHTML = "Hello, DOM!";
+        document.getElementsByClassName("b")[1].style.color = "blue";
+        document.getElementsByTagName("p")[1].innerHTML = "World of DOM!";
+    </script>
+</body>
+
+</html>
