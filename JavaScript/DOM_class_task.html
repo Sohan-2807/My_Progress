@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <center><h2>Login</h2>
+    Email:  <br><input type="email" id="a" placeholder="Email"> <br> <br>
+    Password:  <br><input type="password" id="b" placeholder="Password"> <br> <br>
+    Confirm Password: <br> <input type="password" id="c" placeholder="Confirm Password"> <br> <br>
+    <button onclick="login()">Login</button></center> 
+
+    <script>
+        function login() {
+            var email = document.getElementById("a").value;
+            var password = document.getElementById("b").value;
+            var confirmPassword = document.getElementById("c").value;
+
+            if (email === "" || password === "" || confirmPassword === "") {
+                alert("Please enter all.");
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert("Passwords do not match.");
+                return;
+            }
+
+            alert("Login successful!");
+        }
+    </script>
+</body>
+</html>

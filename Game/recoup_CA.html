@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+                div{
+                    background-color: red;
+                    color: white;
+                }
+                table{
+                    border: 2px;
+                    border-collapse: collapse;
+                    gap: 30px;
+                    margin-left: 300px ;
+                    
+                    
+                }
+                pre{
+                    background-color: rgb(163, 166, 159);
+                }
+                pre:hover{
+                    transform: rotate(360deg);
+                    transition: 4s;
+                    color: greenyellow;
+
+                }
+                body{background-color: rgb(195, 188, 188);}
+                fieldset{background-color: white;}
+                
+            </style>
+    <div id="a"><center><h2>Lovely professional university,School of CSE</h2>
+    <h3>Internet programming Laboratory</h3></center></div>
+    <!-- <table >
+        <tr>Home</tr>
+        <tr>About Us</tr>
+        <tr>Contact</tr>
+    </table> -->
+    <center><pre>home        AboutUS           Contact </pre></center>
+    </pre>
+    <fieldset>
+        <form action="">
+            Enter Your Name <br>
+              <input type="text" id="name"><br><br>
+              
+              <button onclick="fun1()">Submit</button>
+              
+              <script>
+                  function fun1() {
+                      var a = document.getElementById("name").value;
+              
+                      if (a === "") {
+                          alert("Field is empty");
+                      } else {
+                          document.write("Hello, " + a + "!");
+                      }
+                  }
+              </script> <br>
+<br>
+            Student Feedback Form <br>
+            <input type="email"placeholder="EMAIL" id="2"> <br>
+            <br>
+            <input type="radio" name="feedback" id="good" value="good">
+            <label for="good">Good</label><br>
+            
+            <input type="radio" name="feedback" id="bad" value="bad">
+            <label for="bad">Bad</label><br><br>
+
+
+            <button onclick="fun2()">Submit Feedback</button>
+            
+        </form>
+    </fieldset>
+    <script>
+        var b = document.getElementById("2")
+        if (b === ""){
+            alert("Email must not be empty")
+        alert("Feedback Submitted successfully")
+        }
+        
+    </script>
+</body>
+</html>
