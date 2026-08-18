@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #a{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
     <script>
-         function 
-            document.write("after clicking")
-        }
+        var button = document.getElementById("a")
+        button.addEventListener("click", function() {
+            fun();
+        })
     </script>
-    <button id="a" onclick="fun()">K25NZ</button>
+    <center><button id="a" onclick="fun()">K25NZ</button></center>
 </body>
 </html>
