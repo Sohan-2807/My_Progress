@@ -25,4 +25,5 @@ int main(){
     cout<<"enter eid and esal:";
     cin>>e2.id>>e2.esal;
     e2.display();
+
 }
