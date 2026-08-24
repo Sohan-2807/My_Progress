@@ -1,149 +1,428 @@
 # 💻 Daily Coding Practice
 
-Welcome to my **Daily Coding Practice** repository — a collection of the code, problems, experiments, and concepts I work on as I continue improving my programming and problem-solving skills.
+<p align="center">
+  <img src="https://img.shields.io/badge/Consistency-Daily%20Practice-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%20%7C%20C%2B%2B%20%7C%20Python-Programming-3776AB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DSA-In%20Progress-F7DF1E?style=for-the-badge&logo=leetcode&logoColor=black" />
+  <img src="https://img.shields.io/badge/Web-HTML%20%7C%20CSS%20%7C%20JS-E34F26?style=for-the-badge" />
+</p>
 
-This repository is more than just a collection of solutions. It represents my **consistent coding journey**, where I practice different programming languages, explore core computer science concepts, solve problems, and gradually build stronger logical thinking and development skills.
+<p align="center">
+  <b>Learn. Build. Break. Debug. Improve. Repeat. 🚀</b>
+</p>
 
 ---
 
-## 🚀 What I'm Practicing
+## 👋 About This Repository
 
-My current practice covers multiple programming languages and areas of computer science:
+Welcome to my **Daily Coding Practice** repository — a growing collection of the code, problems, experiments, concepts, and small implementations I work on while developing my programming and problem-solving skills.
 
-### 🧠 Data Structures & Algorithms
-- Data Structures using C++
-- Problem Solving
-- Algorithmic Thinking
-- Time & Space Complexity
-- Arrays
-- Strings
-- Linked Lists
-- Stacks & Queues
-- Searching & Sorting
-- Recursion
-- And more as I progress
+This repository is not just a collection of solutions.
 
-### 💻 Programming Languages
+It is a **log of my learning journey** — from understanding programming fundamentals and writing my first programs to solving Data Structures & Algorithms problems, experimenting with different technologies, debugging mistakes, and gradually writing better code.
 
-- **C** — Programming fundamentals, memory, pointers, structures, etc.
-- **C++** — DSA, problem solving, STL, object-oriented programming, and competitive programming concepts
-- **Python** — Programming fundamentals, problem solving, and scripting
-- **JavaScript** — Programming logic and web development
-- **HTML** — Web structure and semantic markup
-- **CSS** — Styling, layouts, responsive design, and UI development
-- 🎯 Purpose
+> 💡 **Every commit represents another step forward.**
 
-The main purpose of this repository is to maintain a record of my daily coding practice and continuous improvement.
 
-Instead of only learning concepts theoretically, I try to reinforce them by writing code, solving problems, debugging errors, experimenting with different approaches, and revisiting concepts when necessary.
+
+# 🧠 Data Structures & Algorithms
+
+A major part of this repository is dedicated to building strong **DSA and problem-solving fundamentals**.
+
+### Currently Practicing
+
+* 📦 Arrays
+* 🔤 Strings
+* 🔗 Linked Lists
+* 📚 Stacks
+* 🚶 Queues
+* 🔎 Searching
+* 🔀 Sorting
+* 🔁 Recursion
+* 🌳 Trees
+* 🕸️ Graphs
+* 🧮 Algorithms
+* ⏱️ Time Complexity
+* 💾 Space Complexity
+* 🧩 Problem Solving
+* 🧠 Algorithmic Thinking
+
+
+
+# 💻 Programming Languages
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### C
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="55"/>
+
+Pointers
+Memory
+Structures
+Functions
+Fundamentals
+
+</td>
+
+<td align="center" width="25%">
+
+### C++
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="55"/>
+
+DSA
+STL
+OOP
+Problem Solving
+Algorithms
+
+</td>
+
+<td align="center" width="25%">
+
+### Python
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="55"/>
+
+Fundamentals
+Logic
+Scripting
+Problem Solving
+
+</td>
+
+<td align="center" width="25%">
+
+### JavaScript
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55"/>
+
+Logic
+DOM
+Web Development
+Interactivity
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🌐 Web Development
+
+I'm also building my understanding of the technologies behind modern websites.
+
+### Frontend Stack
+
+```text
+HTML       → Structure & Semantics
+CSS        → Styling & Layouts
+JavaScript → Logic & Interactivity
+```
+
+### Currently Exploring
+
+* 🧱 Semantic HTML
+* 🎨 CSS layouts
+* 📱 Responsive design
+* ⚡ JavaScript fundamentals
+* 🖱️ DOM manipulation
+* ✨ Interactive interfaces
+* 🌐 Web development fundamentals
+
+---
+
+# 🎯 Purpose
+
+The purpose of this repository is simple:
+
+> **Turn learning into implementation.**
+
+Instead of only reading about a concept, I try to write code for it.
+
+Instead of stopping when something doesn't work, I debug it.
+
+Instead of deleting mistakes, I learn from them.
 
 This repository helps me:
 
-Build consistency in coding
-Improve problem-solving ability
-Strengthen programming fundamentals
-Practice Data Structures & Algorithms
-Understand concepts through implementation
-Track my progress over time
-Prepare for coding interviews
-Become more comfortable working with different technologies
-📈 My Learning Approach
-
-My approach is simple:
-
-Learn → Implement → Practice → Debug → Improve → Repeat
-
-Some solutions may be simple while others may involve more advanced concepts. The focus is not on writing perfect code immediately, but on understanding the problem, attempting a solution, learning from mistakes, and improving with every iteration.
-
-🔥 Current Focus
-
-Currently, I am focusing heavily on:
-
-C++ programming
-Data Structures & Algorithms
-Problem solving
-Programming fundamentals
-Web development fundamentals
-Writing clean and understandable code
-
-As I progress, I will continue adding new concepts, problems, projects, and technologies to this repository.
-
-🌱 Progress
-
-This repository is a work in progress.
-
-The number of problems, concepts, and technologies will continue to grow as I keep practicing and learning.
-
-Every commit represents another step forward in my programming journey.
-
-💡 Philosophy
-
-Consistency beats intensity.
-
-I believe that becoming a strong programmer is not about solving hundreds of problems in a short period of time. It is about showing up consistently, understanding what you write, learning from mistakes, and continuously challenging yourself.
-
-This repository is my way of documenting that journey.
-
-🛠️ Technologies
-
-Languages:
-C · C++ · Python · JavaScript
-
-Web:
-HTML · CSS · JavaScript
-
-Computer Science:
-Data Structures · Algorithms · Problem Solving · Programming Fundamentals
-
-🚧 Future Goals
-
-As I continue this journey, I plan to expand this repository with:
-
-Advanced Data Structures & Algorithms
-More coding problems
-Competitive programming
-Object-Oriented Programming
-Advanced C++
-Advanced Python
-More JavaScript
-Web development projects
-Machine Learning implementations
-Real-world projects
-⭐ Keep Learning
-
-This repository will continue to grow alongside my skills.
+* ✅ Build consistency
+* 🧠 Improve logical thinking
+* 💻 Strengthen programming fundamentals
+* 🧩 Practice DSA
+* 🐛 Become better at debugging
+* 🔍 Understand concepts through implementation
+* 📈 Track my progress
+* 🎯 Prepare for technical interviews
+* 🌱 Explore new technologies
 
 ---
 
-## 📚 Repository Structure
-
-The repository will continue to evolve as I learn new concepts and technologies.
-One problem. One concept. One commit at a time.
+# 🔄 My Learning Cycle
 
 ```text
-Daily-Coding-Practice/
-│
-├── C/
-│   └── C programming practice
-│
-├── CPP/
-│   └── C++ programs and concepts
-│
-├── DSA/
-│   └── Data Structures & Algorithms using C++
-│
-├── Python/
-│   └── Python practice
-│
-├── JavaScript/
-│   └── JavaScript practice
-│
-├── HTML/
-│   └── HTML practice
-│
-└── CSS/
-    └── CSS practice
+       ┌──────────┐
+       │   Learn  │
+       └────┬─────┘
+            ↓
+     ┌──────────────┐
+     │  Implement   │
+     └──────┬───────┘
+            ↓
+      ┌───────────┐
+      │  Practice │
+      └─────┬─────┘
+            ↓
+       ┌─────────┐
+       │  Debug  │
+       └────┬────┘
+            ↓
+       ┌─────────┐
+       │ Improve │
+       └────┬────┘
+            ↓
+        🔁 Repeat
 ```
 
+---
 
-Code every day. Learn continuously. Build relentlessly.
+# 🔥 Current Focus
+
+Right now, my main focus is on strengthening the fundamentals that will support my long-term goal of becoming a **Machine Learning Engineer**.
+
+
+
+I'm particularly focusing on:
+
+* C++ programming
+* Data Structures & Algorithms
+* Problem solving
+* Programming fundamentals
+* Clean and readable code
+* Debugging
+* Web development fundamentals
+* Building a strong foundation for Machine Learning
+
+---
+
+# 🧪 Practice Philosophy
+
+I don't expect every solution to be perfect.
+
+Some code here may be simple.
+
+Some may be inefficient.
+
+Some may contain mistakes.
+
+And that's intentional.
+
+The goal of this repository is **progress, not perfection**.
+
+### My rule:
+
+> **Write the code. Find the mistake. Understand why. Fix it. Move forward.**
+
+I believe consistent practice compounds over time.
+
+---
+
+# 📈 Progress Tracker
+
+| Area             | Status        |
+| ---------------- | ------------- |
+| C Programming    | 🟢 Practicing |
+| C++ Programming  | 🟢 Active     |
+| Data Structures  | 🟢 Active     |
+| Algorithms       | 🟡 Developing |
+| Problem Solving  | 🟢 Active     |
+| Python           | 🟢 Practicing |
+| JavaScript       | 🟡 Developing |
+| HTML             | 🟢 Practicing |
+| CSS              | 🟢 Practicing |
+| Machine Learning | 🔵 Upcoming   |
+
+### 🏆 The Goal
+
+```text
+Beginner
+   ↓
+Fundamentals
+   ↓
+Problem Solver
+   ↓
+Strong DSA
+   ↓
+Developer
+   ↓
+Machine Learning Engineer 🚀
+```
+
+---
+
+# 🗺️ Learning Roadmap
+
+<details>
+<summary>📌 Click to expand my roadmap</summary>
+
+### ✅ Completed / Practicing
+
+* C Programming
+* C++ Fundamentals
+* Python Fundamentals
+* HTML
+* CSS
+* JavaScript Fundamentals
+* Data Structures Fundamentals
+* Basic Problem Solving
+
+### 🔄 Currently Working On
+
+* Advanced C++
+* Data Structures & Algorithms
+* Competitive Programming Concepts
+* Problem Solving
+* JavaScript
+* Web Development
+
+### 🔜 Next
+
+* Advanced DSA
+* Object-Oriented Programming
+* Advanced Python
+* More coding problems
+* Competitive Programming
+* Advanced JavaScript
+* Web Development Projects
+
+### 🚀 Long-Term
+
+* Machine Learning
+* Artificial Intelligence
+* ML Algorithms
+* Data Analysis
+* Real-world ML Projects
+* End-to-End Applications
+
+</details>
+
+---
+
+# 🧩 What You'll Find Here
+
+As this repository grows, it will contain:
+
+```text
+📁 C/
+├── Fundamentals
+├── Pointers
+├── Structures
+├── Memory
+└── Practice Problems
+
+📁 C++/
+├── Fundamentals
+├── STL
+├── DSA
+├── OOP
+└── Problem Solving
+
+📁 Python/
+├── Fundamentals
+├── Practice
+└── Experiments
+
+📁 Web/
+├── HTML
+├── CSS
+└── JavaScript
+
+📁 DSA/
+├── Arrays
+├── Strings
+├── Linked Lists
+├── Stacks
+├── Queues
+├── Trees
+└── Algorithms
+```
+
+> 📌 The structure will evolve as my learning evolves.
+
+---
+
+# 🚧 Future Goals
+
+I plan to continuously expand this repository with:
+
+* 🧠 Advanced Data Structures
+* ⚡ Advanced Algorithms
+* 🏆 Competitive Programming
+* 🧩 More Problem Solving
+* 🏗️ Object-Oriented Programming
+* 🐍 Advanced Python
+* 🌐 Advanced JavaScript
+* 💻 Web Development Projects
+* 🤖 Machine Learning Implementations
+* 🧪 Experiments & Mini Projects
+* 🚀 Real-world Applications
+
+---
+
+# 📊 Repository Philosophy
+
+This repository isn't meant to prove that I already know everything.
+
+It exists to show **how I'm getting better**.
+
+Every problem solved adds experience.
+
+Every bug teaches something.
+
+Every failed approach reveals something new.
+
+Every commit adds another small piece to the bigger picture.
+
+```text
+     CODE
+      ↓
+    ERROR
+      ↓
+    DEBUG
+      ↓
+  UNDERSTAND
+      ↓
+    IMPROVE
+      ↓
+    REPEAT
+      ↓
+    GROW 🚀
+```
+
+---
+
+# ⭐ Keep Learning
+
+> **Consistency beats intensity.**
+
+Programming is a long-term game.
+
+I'm building this repository one problem, one concept, one bug, and one commit at a time.
+
+**This is not the finished product.
+This is the progress log.**
+
+---
+
+<p align="center">
+
+### 💻 Learn → Build → Debug → Improve → Repeat
+
+**Made with curiosity, consistency & a lot of code. 🚀**
+
+⭐ If you're also learning to code, keep going.
+
+</p>
