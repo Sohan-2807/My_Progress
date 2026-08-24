@@ -27,3 +27,17 @@ int main(){
     e2.display();
 
 }
+
+/*
+note: class is a user defined data type which contains data members and member functions.
+note2: object is an instance of a class.
+note3: data members are variables which are used to store data.
+note4: member functions are functions which are used to perform operations on data members.
+note5: access specifiers are used to specify the access level of data members and member functions.
+note6: public access specifier allows access to data members and member functions from outside the class.
+note7: private access specifier allows access to data members and member functions only from within the class.
+note8: protected access specifier allows access to data members and member functions from within the class
+note9: by default, all members of a class are private.
+note10: class is a blueprint for creating objects.
+
+*/
