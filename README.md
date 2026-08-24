@@ -61,7 +61,7 @@ Daily-Coding-Practice/
 │
 └── CSS/
     └── CSS practice
-
+```
 
 🎯 Purpose
 
