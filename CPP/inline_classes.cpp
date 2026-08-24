@@ -20,6 +20,7 @@ int main(){
     cout<<ob.maxx();
 }
 
+
 /* 
 note: inline function is used to reduce the function call overhead.
  It is a request to the compiler to replace the function call with the actual code of the function
