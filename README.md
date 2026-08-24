@@ -31,39 +31,7 @@ My current practice covers multiple programming languages and areas of computer 
 - **JavaScript** — Programming logic and web development
 - **HTML** — Web structure and semantic markup
 - **CSS** — Styling, layouts, responsive design, and UI development
-
----
-
-## 📚 Repository Structure
-
-The repository will continue to evolve as I learn new concepts and technologies.
-
-```text
-Daily-Coding-Practice/
-│
-├── C/
-│   └── C programming practice
-│
-├── CPP/
-│   └── C++ programs and concepts
-│
-├── DSA/
-│   └── Data Structures & Algorithms using C++
-│
-├── Python/
-│   └── Python practice
-│
-├── JavaScript/
-│   └── JavaScript practice
-│
-├── HTML/
-│   └── HTML practice
-│
-└── CSS/
-    └── CSS practice
-```
-
-🎯 Purpose
+- 🎯 Purpose
 
 The main purpose of this repository is to maintain a record of my daily coding practice and continuous improvement.
 
@@ -145,6 +113,37 @@ Real-world projects
 
 This repository will continue to grow alongside my skills.
 
+---
+
+## 📚 Repository Structure
+
+The repository will continue to evolve as I learn new concepts and technologies.
 One problem. One concept. One commit at a time.
+
+```text
+Daily-Coding-Practice/
+│
+├── C/
+│   └── C programming practice
+│
+├── CPP/
+│   └── C++ programs and concepts
+│
+├── DSA/
+│   └── Data Structures & Algorithms using C++
+│
+├── Python/
+│   └── Python practice
+│
+├── JavaScript/
+│   └── JavaScript practice
+│
+├── HTML/
+│   └── HTML practice
+│
+└── CSS/
+    └── CSS practice
+```
+
 
 Code every day. Learn continuously. Build relentlessly.
