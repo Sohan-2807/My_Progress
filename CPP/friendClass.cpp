@@ -16,7 +16,7 @@ class Account{
 class Audit{
     public:
     void getdetails(Account ob){
-        if (ob.balance < 5000) {
+        if (ob.balance < 500) {
             cout<<"\nThe user with Account number "<<ob.accno<<" is having low balance";
         } else {
             cout<<"\nThe user with Account number "<<ob.accno<<" is not having low balance";
