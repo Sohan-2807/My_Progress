@@ -18,8 +18,9 @@ int main() {
 
     int result = linearSearch(arr, n, target);
 
-    if (result != -1)
+    if (result != -1){
         cout << "Element found at index: " << result;
+    }
     else
         cout << "Element not found";
 
