@@ -17,3 +17,8 @@ int main(){
     cout<<"Value of a: "<<a<<endl;
     cout<<"Value of b: "<<b<<endl;
 }
+
+/*
+note1: In the above code, we are passing the addresses of a and b to the function swapNumbers. 
+    The function swaps the values of a and b, and since we are passing the addresses, the original values of a and b in main() are also changed.
+*/
