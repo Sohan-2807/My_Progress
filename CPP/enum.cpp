@@ -5,6 +5,6 @@ enum days{
 };
 
 int main(){
-    days d=wed;
+    days d=mon;
     cout<<d;
 }
