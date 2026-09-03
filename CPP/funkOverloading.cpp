@@ -30,6 +30,7 @@ error1: if we change the return type of the function, it will give an error beca
 error2: If we define two functions with the same name and the same parameter types, it will give an error because the compiler cannot differentiate between the two functions. 
     The parameter types or numbers of parameters must be different for function overloading to work.
 error3:if we use float instead of double, it will give an error because the compiler cannot differentiate between the two functions based on parameter types alone. 
-    The parameter types or numbers of parameters must be different for function overloading to work.for float we should use f or example area(2.5f,3.5f) instead of area(2.5,3.5) to differentiate between the two functions.
+    The parameter types or numbers of parameters must be different for function overloading to work.
+    for float we should use f or example area(2.5f,3.5f) instead of area(2.5,3.5) to differentiate between the two functions.
 
 */
